@@ -5,10 +5,9 @@ class LoopStatements {
             int[] numbers = new int[n];
             numbers [0] = 0;
             numbers [1] = 1;
-            int sum = 0;
+            int sum = 1;
             for (int i = 2; i < numbers.length; i++) {
-                numbers [i] = numbers [i - 1] + numbers [i - 2];}
-            for (int i = 0; i < numbers.length; i++) {
+                numbers [i] = numbers [i - 1] + numbers [i - 2];
                 sum = sum + numbers [i];}
             return sum;
         } else {
